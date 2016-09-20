@@ -1,1 +1,7 @@
 Dockerfile with some utils and modules for Wordpress installation.
+
+Changes to original image:
+
+    * memory_limit set to 160M
+    * upload_max_filesize set to 100MB
+    * post_max_size set to 100MB
